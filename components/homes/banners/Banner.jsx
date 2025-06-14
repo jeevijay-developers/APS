@@ -12,7 +12,7 @@ export default function Banner() {
           <Image
             width={750}
             height={600}
-            src="/img/ummed club/gallary/WhatsApp Image 2025-02-26 at 6.55.08 PM.jpeg"
+            src="/img/about/1/2.png"
             alt="image"
           />
           <Image
@@ -39,19 +39,19 @@ export default function Banner() {
                 data-aos-delay=""
                 className="text-40 md:text-30  lh-13"
               >
-                <span className="text-accent-1">About Club</span>
+                <span className="text-accent-1">About Us</span>
               </h2>
 
               <p data-aos="fade-up" data-aos-delay="" className="mt-10">
-                APS Online Academy Kota established in year 1898 named after Sir
-                Robert Crosthwaite the last agent to the Viceroy of the
-                Rajputana. The club is among the first 18 clubs prior to
-                ninteenth century. The club is situated in the heart of Kota
-                city measuring almost 5 acres with grandeur historic building,
-                historic library having rare and historic collection of
-                seventeenth century books. It has state of art synthetic tennis
-                court. The billiard room provides unique fixed grouted legs
-                table with its heritage style woodwork.
+                At APS Kota, we strive to provide a nurturing environment for
+                our students to grow and thrive. With a focus on academic
+                excellence, we offer a range of programs, including online
+                admissions for classes IX to XII. Our graduation ceremony is a
+                testament to our commitment to empowering our students to reach
+                their full potential. We believe in the power of education to
+                transform lives, and we're dedicated to making it accessible to
+                all. Join our community today and embark on a journey of
+                discovery and growth.
               </p>
 
               <div className="mt-30 md:mt-20">

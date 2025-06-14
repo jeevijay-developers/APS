@@ -7,7 +7,8 @@ const events = [
     title: "UmmedUtsav 2022",
     date: "2022-12-05",
     image: "/img/events/e1.jpeg",
-    description: "An amazing event with enthusiastic participation and great success.",
+    description:
+      "An amazing event with enthusiastic participation and great success.",
   },
   {
     title: "Mr. Chetan Cheetah",
@@ -27,7 +28,7 @@ const events = [
     date: "2019-08-10",
     image: "/img/events/e4.jpg",
     description:
-      "A soulful musical evening organized by APS Online Academy Kota.",
+      "A soulful musical evening organized by Annapurna Public School Kota.",
   },
   {
     title: "Felicitation",

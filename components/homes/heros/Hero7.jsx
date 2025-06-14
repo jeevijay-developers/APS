@@ -15,36 +15,36 @@ const slides = [
     id: 1,
     imageSrc: "/img/hero/1/1.png",
     subtitle:
-      "Empowering young minds through quality education, discipline, and values. Join us in shaping a brighter future.",
-    title: "WELCOME TO Annapurna Public School",
+      "100% Results in VIII, X & XII Board Exams. Committed to imparting quality education under RBSE.",
+    title: "Welcome to APS Kota",
   },
-  {
-    id: 2,
-    imageSrc: "/img/hero/1/2.png",
-    subtitle:
-      "Empowering students worldwide with interactive online classes. Enroll now and unlock a brighter future for your child!",
-    title: "Unlock a World of Learning with APS Online Academy ",
-  },
+  // {
+  //   id: 2,
+  //   imageSrc: "/img/hero/1/2.png",
+  //   subtitle:
+  //     "Admissions open from Play Group to Class XII. Join the best RBSE English Medium School in Kota.",
+  //   title: "Admissions Open for Session 2022-23",
+  // },
   {
     id: 3,
     imageSrc: "/img/hero/1/3.png",
     subtitle:
-      "From Nur to 8th Grade and beyond, we offer a wide range of online classes tailored to meet the diverse needs of students worldwide. Join our vibrant community and let your kids explore subjects like Phonics, Yoga, Vedic maths, Dance, Hindi, and so much more! ",
-    title: "Global Learning, Tailored for Every Age",
+      "Celebrating excellence in education with 100% distinction in Class X and XII results. Enroll now!",
+    title: "100% Success in Board Exams",
   },
   {
     id: 4,
     imageSrc: "/img/hero/1/4.png",
     subtitle:
-      "Discover a world of possibilities with APS Online Academy. Our online classes are designed to foster confidence, creativity, and a love for learning in every child.",
-    title: "Where Every Learner is a Leader",
+      "450+ Olympiad winners, 210+ trophies, and 600+ enrolled students. Experience quality education for a quality life.",
+    title: "Where Every Learner Achieves",
   },
   {
     id: 5,
     imageSrc: "/img/hero/1/5.png",
     subtitle:
-      "Join the APS Online Academy community and give your child the gift of interactive online learning. Book a demo today and see the difference for yourself!",
-    title: "Empowering Young Minds, One Class at a Time",
+      "Located in a pollution-free environment with modern technologies and a homely atmosphere. Visit us today!",
+    title: "The Best Education in Town",
   },
 ];
 
@@ -159,7 +159,7 @@ export default function Hero7() {
 //     imageSrc: "/img/hero/7/8.jpg",
 //     subtitle:
 //       "Search, compare and book 15,000+ multiday tours all over the world.",
-//     title: "WELCOME TO APS Online Academy",
+//     title: "WELCOME TO Annapurna Public School",
 //   },
 //   {
 //     id: 2,
@@ -186,7 +186,7 @@ export default function Hero7() {
 //     id: 5,
 //     imageSrc: "/img/hero/7/5.jpg",
 //     subtitle:
-//       "Become a part of the APS Online Academy family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
+//       "Become a part of the Annapurna Public School family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
 //     title: "Membership & Benefits",
 //   },
 // ];

@@ -10,6 +10,8 @@ import Features9 from "@/components/homes/features/Features9";
 import FeaturesOne from "@/components/homes/features/FeaturesOne";
 import FeaturesThree from "@/components/homes/features/FeaturesThree";
 import Hero7 from "@/components/homes/heros/Hero7";
+import RankedStudents from "@/components/homes/RankedStudents/RankedStudents";
+import TeamSection from "@/components/homes/Team/TeamSection";
 
 import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
 import PopulerTours from "@/components/homes/tours/PopulerTours";
@@ -32,17 +34,18 @@ export default function page() {
       <main>
         <Header1 />
         <Hero7 />
-        <FeaturesOne />
-        <DestinationsOne />
+        <RankedStudents />
+        <TeamSection />
+        {/* <DestinationsOne /> */}
         {/* <Tour1 /> */}
         <Banner />
-        <TourTypeOne />
+        {/* <TourTypeOne /> */}
         {/* <TourSlderOne /> */}
-        {/* <TestimonialOne /> */}
+        <TestimonialOne />
         <BannerOne />
         <Features9 />
         <BannerFour />
-        <FeaturesThree />
+        <FeaturesOne />
 
         {/* <ArticlesThree /> */}
         <FooterOne />
