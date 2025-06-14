@@ -54,8 +54,8 @@ export default function Header1() {
           <div className="header__logo">
             <Link href="/" className="header__logo">
               <Image
-                width="250"
-                height="50"
+                width="80"
+                height="40"
                 src="/img/pageHeader/logo.png"
                 alt="logo icon"
                 priority
