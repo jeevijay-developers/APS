@@ -7,7 +7,7 @@ export default function Information() {
         <div className="row y-gap-20 justify-between">
           <div className="col-lg-6">
             <h2 className="text-30 fw-700">
-              Shree Ummed Club Kota: A Legacy of Heritage and Elegance
+              APS Online Academy Kota: A Legacy of Heritage and Elegance
             </h2>
           </div>
 
@@ -25,7 +25,7 @@ export default function Information() {
               Blending history with modern amenities, the club offers a
               state-of-the-art synthetic tennis court and a billiard room with a
               unique fixed grouted legs table adorned with exquisite
-              heritage-style woodwork. Shree Ummed Club Kota continues to be a
+              heritage-style woodwork. APS Online Academy Kota continues to be a
               prestigious landmark, celebrating a legacy of excellence while
               catering to contemporary leisure and community needs.
             </p>

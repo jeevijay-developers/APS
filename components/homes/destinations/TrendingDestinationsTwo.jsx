@@ -30,7 +30,7 @@ export default function TrendingDestinationsTwo() {
               data-aos-delay=""
               className="text-30 md:text-24 text-white"
             >
-              Club Gallary
+              School Gallary
             </h2>
           </div>
 
@@ -80,7 +80,7 @@ export default function TrendingDestinationsTwo() {
                 </div>
 
                 <div className="featureCard__content text-center">
-                  <h4 className="text-20 fw-500 text-white">{elm.title}</h4>
+                  {/* <h4 className="text-20 fw-500 text-white">{elm.title}</h4> */}
                   {/* <div className="text-14 lh-14 text-white">
                     {elm.tourCount}+ Tours
                   </div> */}
@@ -104,7 +104,7 @@ export default function TrendingDestinationsTwo() {
               style={{ border: "2px solid white", borderRadius: "12px" }}
             />{" "}
             <br />
-            <h4 className="text-white text-center">{text}</h4>
+            {/* <h4 className="text-white text-center">{text}</h4> */}
           </div>
         </div>
       )}

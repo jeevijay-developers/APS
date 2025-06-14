@@ -84,20 +84,6 @@ export default function Header1() {
           </div>
 
           <div className="header__right">
-            {/* <Destinations />
-            <Activities /> */}
-            {/* <Currency /> */}
-            {/* <Link href="/register" className="ml-10">
-              Sign up
-            </Link>
-
-            <Link
-              href="/login"
-              className="button -sm -dark-1 bg-accent-1 rounded-200 text-white ml-30"
-            >
-              Log in
-            </Link> */}
-
             <button
               onClick={() => setMobileMenuOpen(true)}
               className="header__menuBtn ml-30 js-menu-button"

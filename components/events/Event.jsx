@@ -7,13 +7,15 @@ const events = [
     title: "UmmedUtsav 2022",
     date: "2022-12-05",
     image: "/img/events/e1.jpg",
-    description: "An amazing event with enthusiastic participation and great success.",
+    description:
+      "An amazing event with enthusiastic participation and great success.",
   },
   {
     title: "Mr. Chetan Cheetah",
     date: "2022-11-20",
     image: "/img/events/e2.jpg",
-    description: "Honoring CRPF officer Chetan Cheetah with an inspiring event.",
+    description:
+      "Honoring CRPF officer Chetan Cheetah with an inspiring event.",
   },
   {
     title: "Walk O Run 2018",
@@ -25,7 +27,8 @@ const events = [
     title: "Kabir Cafe 2019",
     date: "2019-08-10",
     image: "/img/events/e4.jpg",
-    description: "A soulful musical evening organized by Shree Ummed Club Kota.",
+    description:
+      "A soulful musical evening organized by APS Online Academy Kota.",
   },
   {
     title: "Felicitation",
@@ -45,10 +48,15 @@ const Event = () => {
   return (
     <div className="container py-5" style={{ marginTop: "120px" }}>
       <h2 className="text-center fw-bold mb-4">✨ Events</h2>
-      
+
       <div className="event-list">
         {events.map((event, index) => (
-          <div key={index} className="event-card" data-aos="fade-up" data-aos-delay={index * 100}>
+          <div
+            key={index}
+            className="event-card"
+            data-aos="fade-up"
+            data-aos-delay={index * 100}
+          >
             <Image
               src={event.image}
               height={400}
@@ -59,14 +67,19 @@ const Event = () => {
             <div className="event-content">
               <h4>{event.title}</h4>
               <p className="event-date">
-                📅 {new Date(event.date).toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}
+                📅{" "}
+                {new Date(event.date).toLocaleDateString("en-US", {
+                  month: "long",
+                  day: "numeric",
+                  year: "numeric",
+                })}
               </p>
               <p>{event.description}</p>
             </div>
           </div>
         ))}
       </div>
-      
+
       <style jsx>{`
         .event-list {
           display: grid;

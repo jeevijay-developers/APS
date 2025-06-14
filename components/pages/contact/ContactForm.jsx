@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 
 export default function ContactForm() {
@@ -41,7 +42,17 @@ export default function ContactForm() {
 
   return (
     <section className="layout-pt-lg layout-pb-lg">
-      <div className="container">
+      <div className="container d-flex justify-content-center align-items-center gap-3">
+        <div>
+          <Image
+            src="/img/aps/school.png"
+            width={500}
+            height={500}
+            alt="image"
+          />
+
+          {/* </Image> */}
+        </div>
         <div className="row justify-center">
           <div className="col-lg-8">
             <h2 className="text-30 fw-700 text-center mb-30">
