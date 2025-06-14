@@ -363,7 +363,7 @@ opacity: 1;
 
 /* Feature card layout */
 .featureCard {
-  min-height: 320px; /* slightly taller for breathing room */
+  min-height: 300px; /* slightly taller for breathing room */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

@@ -1,37 +1,37 @@
 export const features = [
   {
     id: 1,
-    iconSrc: "/img/icons/1/ticket.svg",
+    iconSrc: "/img/icons/1/1.jpg",
     title: "Location",
     text: "Located in a clean, natural and pollution-free atmosphere ",
   },
   {
     id: 2,
-    iconSrc: "/img/icons/1/hot-air-balloon.svg",
+    iconSrc: "/img/icons/1/2.jpg",
     title: "Excellent Faculty",
     text: "Trained, skilled and dedicated teaching staff",
   },
   {
     id: 3,
-    iconSrc: "/img/icons/1/diamond.svg",
+    iconSrc: "/img/icons/1/3.jpg",
     title: "Modern Technologies",
     text: "Emphasis on modern tools of educational technologies",
   },
   {
     id: 4,
-    iconSrc: "/img/icons/1/medal.svg",
+    iconSrc: "/img/icons/1/4.jpg",
     title: "Homely Environmen",
     text: "Highly conducive and home away from home environment",
   },
   {
     id: 5,
-    iconSrc: "/img/icons/1/medal.svg",
+    iconSrc: "/img/icons/1/5.jpg",
     title: "Play-Way Learning",
     text: "Encouraging joyful learning through play-way methods",
   },
   {
     id: 6,
-    iconSrc: "/img/icons/1/medal.svg",
+    iconSrc: "/img/icons/1/6.jpg",
     title: "Health & medical card",
     text: "Health checkups and medical card",
   },
