@@ -45,13 +45,13 @@ export default function Banner() {
               <p data-aos="fade-up" data-aos-delay="" className="mt-10">
                 At APS Kota, we strive to provide a nurturing environment for
                 our students to grow and thrive. With a focus on academic
-                excellence, we offer a range of programs, including online
-                admissions for classes IX to XII. Our graduation ceremony is a
-                testament to our commitment to empowering our students to reach
-                their full potential. We believe in the power of education to
-                transform lives, and we're dedicated to making it accessible to
-                all. Join our community today and embark on a journey of
-                discovery and growth.
+                excellence, we offer classes from Play Group to XII, including
+                admissions for IX to XII under the RBSE curriculum. Our
+                graduation ceremony is a testament to our commitment to
+                empowering our students to reach their full potential. We
+                believe in the power of education to transform lives, and we're
+                dedicated to making it accessible to all. Join our community
+                today and embark on a journey of discovery and growth.
               </p>
 
               <div className="mt-30 md:mt-20">
