@@ -6,9 +6,8 @@ const events = [
   {
     title: "UmmedUtsav 2022",
     date: "2022-12-05",
-    image: "/img/events/e1.jpg",
-    description:
-      "An amazing event with enthusiastic participation and great success.",
+    image: "/img/events/e1.jpeg",
+    description: "An amazing event with enthusiastic participation and great success.",
   },
   {
     title: "Mr. Chetan Cheetah",
