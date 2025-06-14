@@ -65,7 +65,7 @@ export default function Hero1() {
                 data-aos-delay="100"
                 className="hero__title"
               >
-                APS Online Academy Kota
+                Annapurna Public School Kota
               </h1>
 
               <p
@@ -73,9 +73,9 @@ export default function Hero1() {
                 data-aos-delay="300"
                 className="hero__text"
               >
-                APS Online Academy Kota established in year 1898 named after Sir
-                Robert Crosthwaite the last agent to the Viceroy of the
-                Rajputana. The club is among the first 18 clubs prior to
+                Annapurna Public School Kota established in year 1898 named
+                after Sir Robert Crosthwaite the last agent to the Viceroy of
+                the Rajputana. The club is among the first 18 clubs prior to
                 ninteenth century.
               </p>
 

@@ -159,7 +159,7 @@ export default function Hero7() {
 //     imageSrc: "/img/hero/7/8.jpg",
 //     subtitle:
 //       "Search, compare and book 15,000+ multiday tours all over the world.",
-//     title: "WELCOME TO APS Online Academy",
+//     title: "WELCOME TO Annapurna Public School",
 //   },
 //   {
 //     id: 2,
@@ -186,7 +186,7 @@ export default function Hero7() {
 //     id: 5,
 //     imageSrc: "/img/hero/7/5.jpg",
 //     subtitle:
-//       "Become a part of the APS Online Academy family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
+//       "Become a part of the Annapurna Public School family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
 //     title: "Membership & Benefits",
 //   },
 // ];
