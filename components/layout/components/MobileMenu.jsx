@@ -24,13 +24,10 @@ const currencies = [
     location: "/about",
   },
   {
-    title: "Club Gallary",
-    location: "/clubGallary",
+    title: "School Gallary",
+    location: "/school-gallary",
   },
-  {
-    title: "Event Gallary",
-    location: "/eventGallary",
-  },
+
   {
     title: "Contact Us",
     location: "/contact",

@@ -13,38 +13,38 @@ import "swiper/css/pagination";
 const slides = [
   {
     id: 1,
-    imageSrc: "/img/hero/7/8.jpg",
+    imageSrc: "/img/hero/1/1.png",
     subtitle:
-      "Search, compare and book 15,000+ multiday tours all over the world.",
-    title: "WELCOME TO SHREE UMMED CLUB",
+      "Empowering young minds through quality education, discipline, and values. Join us in shaping a brighter future.",
+    title: "WELCOME TO Annapurna Public School",
   },
   {
     id: 2,
-    imageSrc: "/img/hero/7/2.jpg",
+    imageSrc: "/img/hero/1/2.png",
     subtitle:
-      "Experience unforgettable moments at our exclusive events and celebrations. From cultural festivals to themed parties, we bring people together in joyous harmony.",
-    title: "Events & Celebrations",
+      "Empowering students worldwide with interactive online classes. Enroll now and unlock a brighter future for your child!",
+    title: "Unlock a World of Learning with APS Online Academy ",
   },
   {
     id: 3,
-    imageSrc: "/img/hero/7/3.jpg",
+    imageSrc: "/img/hero/1/3.png",
     subtitle:
-      "Stay active and energized with our state-of-the-art sports facilities. Whether you're into swimming, tennis, or indoor games, we have something for every fitness enthusiast.",
-    title: "Sports & Recreation",
+      "From Nur to 8th Grade and beyond, we offer a wide range of online classes tailored to meet the diverse needs of students worldwide. Join our vibrant community and let your kids explore subjects like Phonics, Yoga, Vedic maths, Dance, Hindi, and so much more! ",
+    title: "Global Learning, Tailored for Every Age",
   },
   {
     id: 4,
-    imageSrc: "/img/hero/7/9.png",
+    imageSrc: "/img/hero/1/4.png",
     subtitle:
-      "Savor a culinary journey with our exquisite dining options. Our multi-cuisine restaurant and café offer a delightful ambiance, perfect for family gatherings and social meet-ups.",
-    title: "Dining & Hospitality",
+      "Discover a world of possibilities with APS Online Academy. Our online classes are designed to foster confidence, creativity, and a love for learning in every child.",
+    title: "Where Every Learner is a Leader",
   },
   {
     id: 5,
-    imageSrc: "/img/hero/7/5.jpg",
+    imageSrc: "/img/hero/1/5.png",
     subtitle:
-      "Become a part of the Shree Ummed Club family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
-    title: "Membership & Benefits",
+      "Join the APS Online Academy community and give your child the gift of interactive online learning. Book a demo today and see the difference for yourself!",
+    title: "Empowering Young Minds, One Class at a Time",
   },
 ];
 
@@ -140,7 +140,6 @@ export default function Hero7() {
   );
 }
 
-
 /* Old code */
 // "use client";
 // import Calender from "@/components/common/dropdownSearch/Calender";
@@ -160,7 +159,7 @@ export default function Hero7() {
 //     imageSrc: "/img/hero/7/8.jpg",
 //     subtitle:
 //       "Search, compare and book 15,000+ multiday tours all over the world.",
-//     title: "WELCOME TO SHREE UMMED CLUB",
+//     title: "WELCOME TO APS Online Academy",
 //   },
 //   {
 //     id: 2,
@@ -187,7 +186,7 @@ export default function Hero7() {
 //     id: 5,
 //     imageSrc: "/img/hero/7/5.jpg",
 //     subtitle:
-//       "Become a part of the Shree Ummed Club family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
+//       "Become a part of the APS Online Academy family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
 //     title: "Membership & Benefits",
 //   },
 // ];
