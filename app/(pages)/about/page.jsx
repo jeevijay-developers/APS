@@ -22,7 +22,7 @@ export default function page() {
       <main>
         <Header1 />
         <Hero />
-        <Information />
+        {/* <Information /> */}
         {/* <Banner /> */}
         <FeaturesOne />
         {/* <div className="mt-60">

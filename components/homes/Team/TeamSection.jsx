@@ -1,6 +1,6 @@
-'use client'
-import Image from 'next/image';
-import React from 'react';
+"use client";
+import Image from "next/image";
+import React from "react";
 
 const TeamSection = () => {
   const teamMembers = [
@@ -9,22 +9,22 @@ const TeamSection = () => {
       name: "Dr. B. V. Rao",
       qualifications: "M.SC., M.S. (IIT MADRAS), PH.D. (IIT DELHI)",
       position: "FOUNDER CHAIRMAN - APS KOTA",
-      image: "/img/ourTeam/RaoSir.jpg"
+      image: "/img/ourTeam/RaoSir.jpg",
     },
     {
       id: 2,
       name: "Dr. Rama R. Bommu",
       qualifications: "PH.D., POSTDOC. (USA), STA FELLOW (JAPAN)",
       position: "DIRECTOR, APS KOTA",
-      image: "/img/ourTeam/ramasir.jpg"
+      image: "/img/ourTeam/ramasir.jpg",
     },
     {
       id: 3,
       name: "Mrs. B.V. Vara Lakshmi",
       qualifications: "M.SC., M.S. (USA), M.ED",
       position: "",
-      image: "/img/ourTeam/madamrao.png"
-    }
+      image: "/img/ourTeam/madamrao.png",
+    },
   ];
 
   return (
@@ -53,7 +53,9 @@ const TeamSection = () => {
                   </div>
                   <div className="team-info">
                     <h3 className="team-name">{member.name}</h3>
-                    <p className="team-qualifications">{member.qualifications}</p>
+                    <p className="team-qualifications">
+                      {member.qualifications}
+                    </p>
                     {member.position && (
                       <p className="team-position">{member.position}</p>
                     )}
@@ -69,7 +71,7 @@ const TeamSection = () => {
           padding: 80px 0;
           background-color: #f8f9fa;
         }
-        
+
         .section-title {
           font-size: 2.5rem;
           font-weight: 600;
@@ -78,9 +80,9 @@ const TeamSection = () => {
           position: relative;
           display: inline-block;
         }
-        
+
         .section-title::after {
-          content: '';
+          content: "";
           position: absolute;
           bottom: -10px;
           left: 0;
@@ -88,17 +90,17 @@ const TeamSection = () => {
           height: 4px;
           background: linear-gradient(90deg, #ffa500 0%, #333 100%);
         }
-        
+
         .team-card {
           background: white;
           border-radius: 15px;
           overflow: hidden;
-          box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           transition: all 0.3s ease;
           margin-bottom: 30px;
           height: 100%;
         }
-        
+
         .team-image {
           width: 100%;
           height: 300px;
@@ -110,19 +112,19 @@ const TeamSection = () => {
           font-size: 1.2rem;
           font-weight: 500;
         }
-        
+
         .team-info {
           padding: 30px 25px;
           text-align: center;
         }
-        
+
         .team-name {
           font-size: 1.5rem;
           font-weight: 700;
           color: #2c3e50;
           margin-bottom: 10px;
         }
-        
+
         .team-qualifications {
           font-size: 0.9rem;
           color: #ffa500;
@@ -130,7 +132,7 @@ const TeamSection = () => {
           margin-bottom: 8px;
           line-height: 1.4;
         }
-        
+
         .team-position {
           font-size: 0.9rem;
           color: #7f8c8d;
@@ -138,20 +140,20 @@ const TeamSection = () => {
           text-transform: uppercase;
           letter-spacing: 0.5px;
         }
-        
+
         @media (max-width: 768px) {
           .section-title {
             font-size: 2rem;
           }
-          
+
           .team-info {
             padding: 20px 15px;
           }
-          
+
           .team-name {
             font-size: 1.3rem;
           }
-          
+
           .team-qualifications,
           .team-position {
             font-size: 0.8rem;

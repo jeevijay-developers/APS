@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="pageHeader -type-1">
       <div className="pageHeader__bg">
-        <Image width={1800} height={500} src="/img/about/ab1.jpg" alt="image" />
+        <Image width={1800} height={500} src="/img/about/1/3.jpg" alt="image" />
         <Image
           width="1800"
           height="40"
@@ -22,10 +22,11 @@ export default function Hero() {
               <h1 className="pageHeader__title">About Us</h1>
 
               <p className="pageHeader__text">
-                Annapurna Public School Kota established in year 1898 named
-                after Sir Robert Crosthwaite the last agent to the Viceroy of
-                the Rajputana. The club is among the first 18 clubs prior to
-                ninteenth century.
+                Annapurna Public School (APS) is a co-educational English medium
+                school established by the Shree Annapurna Educational & Research
+                Society in fond memory of Smt. Annapurna, the beloved mother of
+                the Founder-Chairman, Dr.B.V.Rao, an Eminent Scientist,
+                Technocrat, an outstanding Teacher of the prominence.
               </p>
             </div>
           </div>
