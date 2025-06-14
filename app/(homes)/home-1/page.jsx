@@ -21,7 +21,7 @@ export default function Home() {
       <Header1 />
       <Hero1 />
       <FeaturesOne />
-      <DestinationsOne />
+      {/* <DestinationsOne /> */}
       {/* <Tour1 /> */}
       <Banner />
       <TourTypeOne />
