@@ -45,7 +45,7 @@ const slides = [
     subtitle:
       "Join our vibrant school community where students, teachers, and parents collaborate for holistic development.",
     title: "Our School Community",
-  }
+  },
 ];
 
 export default function Hero7() {
@@ -140,7 +140,6 @@ export default function Hero7() {
   );
 }
 
-
 /* Old code */
 // "use client";
 // import Calender from "@/components/common/dropdownSearch/Calender";
@@ -160,7 +159,7 @@ export default function Hero7() {
 //     imageSrc: "/img/hero/7/8.jpg",
 //     subtitle:
 //       "Search, compare and book 15,000+ multiday tours all over the world.",
-//     title: "WELCOME TO SHREE UMMED CLUB",
+//     title: "WELCOME TO APS Online Academy",
 //   },
 //   {
 //     id: 2,
@@ -187,7 +186,7 @@ export default function Hero7() {
 //     id: 5,
 //     imageSrc: "/img/hero/7/5.jpg",
 //     subtitle:
-//       "Become a part of the Shree Ummed Club family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
+//       "Become a part of the APS Online Academy family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
 //     title: "Membership & Benefits",
 //   },
 // ];

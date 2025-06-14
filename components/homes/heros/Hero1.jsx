@@ -65,7 +65,7 @@ export default function Hero1() {
                 data-aos-delay="100"
                 className="hero__title"
               >
-                Shree Ummed Club Kota
+                APS Online Academy Kota
               </h1>
 
               <p
@@ -73,7 +73,7 @@ export default function Hero1() {
                 data-aos-delay="300"
                 className="hero__text"
               >
-                Shree Ummed Club Kota established in year 1898 named after Sir
+                APS Online Academy Kota established in year 1898 named after Sir
                 Robert Crosthwaite the last agent to the Viceroy of the
                 Rajputana. The club is among the first 18 clubs prior to
                 ninteenth century.
