@@ -1,24 +1,33 @@
-"use client"
+"use client";
 import React from "react";
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 export default function EducationStatsSection() {
+  // Hook to track visibility of the right column (stats)
+  const { ref, inView } = useInView({
+    triggerOnce: true, // run once
+    threshold: 0.2, // when 20% of the block is in view
+  });
+
+  const stats = [
+    { label: "Olympiad Winners", value: 450 },
+    { label: "Experienced Teachers", value: 100 },
+    { label: "Student Enrolled", value: 600 },
+    { label: "Trophy Won", value: 210 },
+  ];
+
   return (
     <section className="py-5 my-5 bg-white">
       <div className="container">
         <div className="row align-items-center">
           {/* Left Section */}
           <div className="col-lg-6 mb-4 mb-lg-0">
-            <div
-              className="p-4 rounded-4"
-              style={{ backgroundColor: "#ffb703" }}
-            >
+            <div className="p-4 rounded-4" style={{ backgroundColor: "#ffb703" }}>
               <h2 className="text-white fs-2 mb-3">
                 We Offer Quality Education For Quality Life!
               </h2>
-              <hr
-                className="bg-white mb-3"
-                style={{ height: "2px", width: "120px" }}
-              />
+              <hr className="bg-white mb-3" style={{ height: "2px", width: "120px" }} />
               <p className="text-white mb-3">
                 We at <span style={{ color: "#00ffff" }}>APS</span> believe that
                 the concept of education is:
@@ -39,14 +48,9 @@ export default function EducationStatsSection() {
           </div>
 
           {/* Right Section - Stats */}
-          <div className="col-lg-6">
+          <div className="col-lg-6" ref={ref}>
             <div className="row g-4">
-              {[
-                { label: "Olympiad Winners", value: 450 },
-                { label: "Experienced Teachers", value: 100 },
-                { label: "Student Enrolled", value: 600 },
-                { label: "Trophy Won", value: 210 },
-              ].map((item, idx) => (
+              {stats.map((item, idx) => (
                 <div className="col-6" key={idx}>
                   <div
                     className="card text-center border-0 rounded-4 py-4"
@@ -58,18 +62,16 @@ export default function EducationStatsSection() {
                     }}
                     onMouseEnter={(e) => {
                       e.currentTarget.style.transform = "translateY(-5px)";
-                      e.currentTarget.style.boxShadow =
-                        "0 10px 24px rgba(0, 0, 0, 0.15)";
+                      e.currentTarget.style.boxShadow = "0 10px 24px rgba(0, 0, 0, 0.15)";
                     }}
                     onMouseLeave={(e) => {
                       e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow =
-                        "0 6px 18px rgba(0, 0, 0, 0.1)";
+                      e.currentTarget.style.boxShadow = "0 6px 18px rgba(0, 0, 0, 0.1)";
                     }}
                   >
                     <div className="card-body">
                       <h3 className="fs-1 fw-bold text-dark mb-2">
-                        {item.value}
+                        {inView && <CountUp start={0} end={item.value} duration={2.5} />}
                       </h3>
                       <p className="text-secondary fs-6 mb-0">{item.label}</p>
                     </div>
