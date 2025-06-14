@@ -34,7 +34,7 @@ export default function page() {
         <Header1 />
         <Hero7 />
         <RankedStudents />
-        <DestinationsOne />
+        {/* <DestinationsOne /> */}
         {/* <Tour1 /> */}
         <Banner />
         {/* <TourTypeOne /> */}
