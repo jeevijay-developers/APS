@@ -419,7 +419,7 @@ export const tourDataThree = [
 export const tourDataThreeA = [
   {
     id: 15,
-    imageSrc: "/img/clubgallary/cg1.jpg",
+    imageSrc: "/img/aps/1.jpeg",
     location: "Paris, France",
     title: "A view of ummed club",
     rating: 5,
@@ -433,7 +433,7 @@ export const tourDataThreeA = [
   },
   {
     id: 16,
-    imageSrc: "/img/clubgallary/cg2.jpg",
+    imageSrc: "/img/aps/3.jpeg",
     location: "New York, USA",
     title: "Welcome gallary of ummed club",
     rating: 5,
@@ -447,7 +447,7 @@ export const tourDataThreeA = [
   },
   {
     id: 17,
-    imageSrc: "/img/clubgallary/cg3.jpg",
+    imageSrc: "/img/aps/4.jpeg",
     location: "London, UK",
     title: "Loung Room view",
     rating: 5,
@@ -461,7 +461,7 @@ export const tourDataThreeA = [
   },
   {
     id: 18,
-    imageSrc: "/img/clubgallary/cg4.jpg",
+    imageSrc: "/img/aps/5.jpeg",
     location: "Paris, France",
     title: "Bar Counter",
     rating: 5,
@@ -475,7 +475,7 @@ export const tourDataThreeA = [
   },
   {
     id: 19,
-    imageSrc: "/img/clubgallary/cg5.jpg",
+    imageSrc: "/img/aps/13.jpeg",
     location: "New York, USA",
     title: "Front view",
     rating: 5,
@@ -489,7 +489,7 @@ export const tourDataThreeA = [
   },
   {
     id: 20,
-    imageSrc: "/img/clubgallary/cg6.jpg",
+    imageSrc: "/img/aps/3.jpeg",
     location: "London, UK",
     title: "Roof view",
     rating: 5,
@@ -503,7 +503,7 @@ export const tourDataThreeA = [
   },
   {
     id: 21,
-    imageSrc: "/img/clubgallary/cg7.jpg",
+    imageSrc: "/img/aps/7.jpeg",
     location: "Paris, France",
     title: "Side view",
     rating: 5,
@@ -515,7 +515,7 @@ export const tourDataThreeA = [
   },
   {
     id: 22,
-    imageSrc: "/img/clubgallary/cg8.jpg",
+    imageSrc: "/img/aps/8.jpeg",
     location: "New York, USA",
     title: "Bar Facility",
     rating: 5,
@@ -527,7 +527,7 @@ export const tourDataThreeA = [
   },
   {
     id: 23,
-    imageSrc: "/img/clubgallary/cg9.jpg",
+    imageSrc: "/img/aps/9.jpeg",
     location: "London, UK",
     title: "Herritage library",
     rating: 5,
@@ -539,7 +539,7 @@ export const tourDataThreeA = [
   },
   {
     id: 24,
-    imageSrc: "/img/clubgallary/cg10.jpg",
+    imageSrc: "/img/aps/10.jpeg",
     location: "Paris, France",
     title: "Darbar hall",
     rating: 5,
@@ -551,7 +551,7 @@ export const tourDataThreeA = [
   },
   {
     id: 25,
-    imageSrc: "/img/clubgallary/cg11.jpg",
+    imageSrc: "/img/aps/11.jpeg",
     location: "New York, USA",
     title: "Family Room",
     rating: 5,
@@ -563,7 +563,7 @@ export const tourDataThreeA = [
   },
   {
     id: 26,
-    imageSrc: "/img/clubgallary/cg12.jpg",
+    imageSrc: "/img/aps/12.jpeg",
     location: "London, UK",
     title: "Billards table",
     rating: 5,
