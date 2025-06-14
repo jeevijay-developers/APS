@@ -43,7 +43,7 @@ export default function Banner() {
               </h2>
 
               <p data-aos="fade-up" data-aos-delay="" className="mt-10">
-                Shree Ummed Club Kota established in year 1898 named after Sir
+                APS Online Academy Kota established in year 1898 named after Sir
                 Robert Crosthwaite the last agent to the Viceroy of the
                 Rajputana. The club is among the first 18 clubs prior to
                 ninteenth century. The club is situated in the heart of Kota

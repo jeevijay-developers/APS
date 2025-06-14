@@ -55,12 +55,12 @@ export default function Hero() {
             <div className="col-12">
               <div className="pageHeader__content">
                 <h1 className="pageHeader__title">
-                  WELCOME TO SHREE UMMED CLUB
+                  WELCOME TO APS Online Academy
                 </h1>
 
                 <p className="pageHeader__text">
-                  Shree Ummed Club Kota established in year 1898 named after Sir
-                  Robert Crosthwaite the last agent to the Viceroy of the
+                  APS Online Academy Kota established in year 1898 named after
+                  Sir Robert Crosthwaite the last agent to the Viceroy of the
                   Rajputana. The club is among the first 18 clubs prior to
                   ninteenth century.
                 </p>

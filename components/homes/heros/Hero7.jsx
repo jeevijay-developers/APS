@@ -15,36 +15,36 @@ const slides = [
     id: 1,
     imageSrc: "/img/hero/7/8.jpg",
     subtitle:
-      "Search, compare and book 15,000+ multiday tours all over the world.",
-    title: "WELCOME TO SHREE UMMED CLUB",
+      "Empowering young minds through quality education, discipline, and values. Join us in shaping a brighter future.",
+    title: "WELCOME TO Annapurna Public School",
   },
   {
     id: 2,
     imageSrc: "/img/hero/7/2.jpg",
     subtitle:
-      "Experience unforgettable moments at our exclusive events and celebrations. From cultural festivals to themed parties, we bring people together in joyous harmony.",
-    title: "Events & Celebrations",
+      "From cultural festivals to annual days, our school celebrates every moment with great enthusiasm and student involvement.",
+    title: "School Events & Celebrations",
   },
   {
     id: 3,
     imageSrc: "/img/hero/7/3.jpg",
     subtitle:
-      "Stay active and energized with our state-of-the-art sports facilities. Whether you're into swimming, tennis, or indoor games, we have something for every fitness enthusiast.",
-    title: "Sports & Recreation",
+      "Encouraging physical fitness and team spirit through well-equipped sports facilities and regular competitions.",
+    title: "Sports & Physical Activities",
   },
   {
     id: 4,
     imageSrc: "/img/hero/7/9.png",
     subtitle:
-      "Savor a culinary journey with our exquisite dining options. Our multi-cuisine restaurant and café offer a delightful ambiance, perfect for family gatherings and social meet-ups.",
-    title: "Dining & Hospitality",
+      "Nutritious and hygienic meals provided in a student-friendly environment to promote healthy eating habits.",
+    title: "Healthy Meals & Cafeteria",
   },
   {
     id: 5,
     imageSrc: "/img/hero/7/5.jpg",
     subtitle:
-      "Become a part of the Shree Ummed Club family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
-    title: "Membership & Benefits",
+      "Join our vibrant school community where students, teachers, and parents collaborate for holistic development.",
+    title: "Our School Community",
   },
 ];
 
@@ -140,7 +140,6 @@ export default function Hero7() {
   );
 }
 
-
 /* Old code */
 // "use client";
 // import Calender from "@/components/common/dropdownSearch/Calender";
@@ -160,7 +159,7 @@ export default function Hero7() {
 //     imageSrc: "/img/hero/7/8.jpg",
 //     subtitle:
 //       "Search, compare and book 15,000+ multiday tours all over the world.",
-//     title: "WELCOME TO SHREE UMMED CLUB",
+//     title: "WELCOME TO APS Online Academy",
 //   },
 //   {
 //     id: 2,
@@ -187,7 +186,7 @@ export default function Hero7() {
 //     id: 5,
 //     imageSrc: "/img/hero/7/5.jpg",
 //     subtitle:
-//       "Become a part of the Shree Ummed Club family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
+//       "Become a part of the APS Online Academy family. Enjoy exclusive privileges, access to premium amenities, and a community that celebrates togetherness and well-being.",
 //     title: "Membership & Benefits",
 //   },
 // ];

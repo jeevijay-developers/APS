@@ -12,7 +12,7 @@ export default function FeaturesOne() {
         <div className="row justify-content-center mb-40">
           <div className="col-auto text-center">
             <h2 data-aos="fade-up" className="text-36 fw-700 text-dark">
-              Why Choose Ummed Club Kota?
+              Why Choose Annapurna Public school
             </h2>
             <p className="text-16 text-gray mt-10" data-aos="fade-up" data-aos-delay="100">
               Discover our exclusive facilities and premium features
@@ -38,8 +38,8 @@ export default function FeaturesOne() {
                       <Image width={32} height={32} src={elm.iconSrc} alt="icon" />
                     </div>
                   </div>
-                  <h3 className="text-20 fw-600 mb-10 text-dark">{elm.title}</h3>
-                  <p className="text-15 text-gray">{elm.text}</p>
+                  <h3 className="text-20 fw-600 mb-10 text-dark px-3">{elm.title}</h3>
+                  <p className="text-15 text-gray px-3">{elm.text}</p>
                 </div>
               </div>
             </div>
