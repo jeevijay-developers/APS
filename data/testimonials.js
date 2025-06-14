@@ -1,49 +1,49 @@
 export const testimonialsOne = [
   {
     id: 1,
-    imageSrc: "/img/testimonials/1/2.png",
-    title: "Excellent Service!",
+    imageSrc: "/img/pageHeader/logo.png",
+    title: "APS Profile",
     content:
-      "I had an amazing experience with this company. The service was top-notch, and the staff was incredibly friendly. I highly recommend them!",
+      "Annapurna Public School (APS) is a co-educational English medium school established by the Shree Annapurna Educational & Research Society in...",
     authorName: "John Smith",
     authorRole: "Traveler",
   },
   {
     id: 2,
-    imageSrc: "/img/testimonials/1/2.png",
-    title: "Great Adventures!",
+    imageSrc: "/img/pageHeader/logo.png",
+    title: "APS Vision",
     content:
-      "The tours in this website are great. I had been really enjoying with my family! The team is very professional and takes care of the customers. Will surely recommend it to my friends.",
+      "To inculcate in every child: Awarness to become wise and resourcefull Passion for excellence in career and perfection in life...",
     authorName: "Alice Johnson",
     authorRole: "Explorer",
   },
   {
     id: 3,
-    imageSrc: "/img/testimonials/1/2.png",
-    title: "Awesome Experience!",
+    imageSrc: "/img/pageHeader/logo.png",
+    title: "APS Mission",
     content:
-      "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
+      "To impart Quality Education using  emerging innovative learning tools with its foci on imbibing academic, aesthetic,  Intellectual, creative, social, moral,...",
     authorName: "David Williams",
     authorRole: "Adventurer",
   },
-  {
-    id: 4,
-    imageSrc: "/img/testimonials/1/2.png",
-    title: "Awesome Experience!",
-    content:
-      "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
-    authorName: "David Williams",
-    authorRole: "Adventurer",
-  },
-  {
-    id: 5,
-    imageSrc: "/img/testimonials/1/2.png",
-    title: "Awesome Experience!",
-    content:
-      "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
-    authorName: "David Williams",
-    authorRole: "Adventurer",
-  },
+  // {
+  //   id: 4,
+  //   imageSrc: "/img/testimonials/1/2.png",
+  //   title: "Awesome Experience!",
+  //   content:
+  //     "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
+  //   authorName: "David Williams",
+  //   authorRole: "Adventurer",
+  // },
+  // {
+  //   id: 5,
+  //   imageSrc: "/img/testimonials/1/2.png",
+  //   title: "Awesome Experience!",
+  //   content:
+  //     "The best travel company I've ever used. Their tours are fantastic, and the guides are very knowledgeable. I can't wait to go on another adventure with them.",
+  //   authorName: "David Williams",
+  //   authorRole: "Adventurer",
+  // },
 ];
 
 export const testimonialsTwo = [

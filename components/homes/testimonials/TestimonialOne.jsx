@@ -25,7 +25,7 @@ export default function TestimonialOne() {
               data-aos-delay=""
               className="text-30 md:text-24"
             >
-              Customer Reviews
+              WELCOME TO ANNAPURNA PUBLIC SCHOOL, KOTA
             </h2>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function TestimonialOne() {
                             alt="image"
                           />
 
-                          <div className="testimonials__icon">
+                          {/* <div className="testimonials__icon">
                             <svg
                               width="16"
                               height="13"
@@ -86,7 +86,7 @@ export default function TestimonialOne() {
                                 fill="white"
                               />
                             </svg>
-                          </div>
+                          </div> */}
                         </div>
 
                         <div className="text-18 fw-500 text-accent-1 mt-60 md:mt-40">
@@ -97,12 +97,12 @@ export default function TestimonialOne() {
                           {elm.content}
                         </div>
 
-                        <div className="mt-20 md:mt-40">
+                        {/* <div className="mt-20 md:mt-40">
                           <div className="lh-16 text-16 fw-500">
                             {elm.authorName}
                           </div>
                           <div className="lh-16">{elm.authorRole}</div>
-                        </div>
+                        </div> */}
                       </div>
                     </SwiperSlide>
                   ))}
