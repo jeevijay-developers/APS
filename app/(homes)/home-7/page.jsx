@@ -37,9 +37,9 @@ export default function page() {
         <DestinationsOne />
         {/* <Tour1 /> */}
         <Banner />
-        <TourTypeOne />
+        {/* <TourTypeOne /> */}
         {/* <TourSlderOne /> */}
-        {/* <TestimonialOne /> */}
+        <TestimonialOne />
         <BannerOne />
         <Features9 />
         <BannerFour />
