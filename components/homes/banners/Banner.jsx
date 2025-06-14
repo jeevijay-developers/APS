@@ -43,19 +43,15 @@ export default function Banner() {
               </h2>
 
               <p data-aos="fade-up" data-aos-delay="" className="mt-10">
-                For 18+ years, A.P.S. Online Academy has delivered exceptional
-                online education through innovative phonics, math, and grammar
-                courses. Our interactive curriculum, flexible scheduling, and
-                global classrooms empower students worldwide. Passionate
-                teachers foster confidence using modern teaching methods
-                tailored to individual needs. Whether through group classes or
-                1:1 sessions, we make learning engaging and effective. Parents
-                trust our proven track record of nurturing young minds, while
-                educators join our supportive remote teaching community.
-                Committed to making every learner a leader, we combine academic
-                excellence with joyful discovery. Discover why families across
-                continents choose A.P.S. for transformative education. "Where
-                every learner becomes a leader."
+                At APS Kota, we strive to provide a nurturing environment for
+                our students to grow and thrive. With a focus on academic
+                excellence, we offer a range of programs, including online
+                admissions for classes IX to XII. Our graduation ceremony is a
+                testament to our commitment to empowering our students to reach
+                their full potential. We believe in the power of education to
+                transform lives, and we're dedicated to making it accessible to
+                all. Join our community today and embark on a journey of
+                discovery and growth.
               </p>
 
               <div className="mt-30 md:mt-20">
