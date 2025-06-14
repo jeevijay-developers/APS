@@ -36,12 +36,12 @@ export default function page() {
         <Hero7 />
         <RankedStudents />
         <TeamSection />
-        <DestinationsOne />
+        {/* <DestinationsOne /> */}
         {/* <Tour1 /> */}
         <Banner />
-        <TourTypeOne />
+        {/* <TourTypeOne /> */}
         {/* <TourSlderOne /> */}
-        {/* <TestimonialOne /> */}
+        <TestimonialOne />
         <BannerOne />
         <Features9 />
         <BannerFour />
