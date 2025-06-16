@@ -1,0 +1,204 @@
+.foundersMessageSection {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.foundersMessageSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23007bff' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+  pointer-events: none;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.titleUnderline {
+  width: 80px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 0 auto 3rem;
+}
+
+.founderImageContainer {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.founderImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.imageOverlay {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent);
+  padding: 20px;
+  color: white;
+}
+
+.founderDetails {
+  text-align: center;
+}
+
+.founderName {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.founderTitle {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+}
+
+.founderCredentials {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin: 0;
+}
+
+.messageContent {
+  padding: 0 20px;
+}
+
+.messageText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.openingGreeting {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.messageText p {
+  margin-bottom: 1.5rem;
+}
+
+.messageText strong {
+  color: #333;
+}
+
+.closingSignature {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e9ecef;
+}
+
+.wishes {
+  font-size: 1.1rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.signatureBlock {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 25px;
+  border-radius: 15px;
+  border-left: 4px solid #007bff;
+}
+
+.signatureName {
+  color: #2c3e50;
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.signatureCredentials {
+  color: #6c757d;
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.signaturePosition {
+  color: #007bff;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.signatureOrganization {
+  color: #495057;
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 991px) {
+  .foundersMessageSection {
+    padding: 60px 0;
+  }
+  
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+  
+  .messageText {
+    padding: 30px;
+    margin-top: 2rem;
+  }
+  
+  .founderImage {
+    height: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .foundersMessageSection {
+    padding: 40px 0;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .messageText {
+    padding: 25px;
+  }
+  
+  .messageText p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  
+  .founderImage {
+    height: 250px;
+  }
+  
+  .imageOverlay {
+    position: static;
+    transform: none;
+    margin-top: 15px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+  
+  .messageText {
+    padding: 20px;
+  }
+  
+  .signatureBlock {
+    padding: 20px;
+  }
+}
