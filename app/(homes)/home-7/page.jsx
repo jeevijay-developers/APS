@@ -17,6 +17,7 @@ import TestimonialOne from "@/components/homes/testimonials/TestimonialOne";
 import PopulerTours from "@/components/homes/tours/PopulerTours";
 import TourSlider4 from "@/components/homes/tours/TourSlider4";
 import TourTypeOne from "@/components/homes/tourTypes/TourTypeOne";
+import VideoPlayer from "@/components/homes/VideoPlayer/VideoPlayer";
 import FooterFive from "@/components/layout/footers/FooterFive";
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Header1 from "@/components/layout/header/Header1";
@@ -41,6 +42,7 @@ export default function page() {
         <Banner />
         {/* <TourTypeOne /> */}
         {/* <TourSlderOne /> */}
+        <VideoPlayer />
         <TestimonialOne />
         <BannerOne />
         <Features9 />
