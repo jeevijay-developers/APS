@@ -37,7 +37,7 @@ const TeamSection = () => {
             </div>
           </div>
 
-          <div className="row justify-content-center">
+          <div className="row justify-content-center" style={{rowGap: "1rem"}}>
             {teamMembers.map((member) => (
               <div key={member.id} className="col-lg-4 col-md-6 col-sm-12">
                 <div className="team-card">
