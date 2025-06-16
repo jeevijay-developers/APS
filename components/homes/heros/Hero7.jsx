@@ -18,13 +18,6 @@ const slides = [
       "100% Results in VIII, X & XII Board Exams. Committed to imparting quality education under RBSE.",
     title: "Welcome to APS Kota",
   },
-  // {
-  //   id: 2,
-  //   imageSrc: "/img/hero/1/2.png",
-  //   subtitle:
-  //     "Admissions open from Play Group to Class XII. Join the best RBSE English Medium School in Kota.",
-  //   title: "Admissions Open for Session 2022-23",
-  // },
   {
     id: 3,
     imageSrc: "/img/hero/1/3.png",
