@@ -3061,7 +3061,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header.-type-10.-is-sticky {
-  background-color: #131313;
+  /* background-color: #27272599; */
+  background-color: rgba(14, 0, 3, 0.5);
 }
 
 .header.-type-10 .header__container {
@@ -3088,10 +3089,17 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
 }
+/* .header__logo{
 
+    width: 55px;
+  } */
 @media (max-width: 767px) {
   .header.-type-10 .header__right {
     display: none;
+  }
+  .header__logo{
+
+    width: 55px;
   }
 }
 

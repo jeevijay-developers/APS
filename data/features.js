@@ -20,7 +20,7 @@ export const features = [
   {
     id: 4,
     iconSrc: "/img/icons/1/4.jpg",
-    title: "Homely Environmen",
+    title: "Homely Environment",
     text: "Highly conducive and home away from home environment",
   },
   {
