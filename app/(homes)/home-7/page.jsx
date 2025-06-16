@@ -21,6 +21,7 @@ import FooterFive from "@/components/layout/footers/FooterFive";
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Header1 from "@/components/layout/header/Header1";
 import Header6 from "@/components/layout/header/Header6";
+import Header9 from "@/components/layout/header/Header9";
 import React from "react";
 
 export const metadata = {
@@ -32,7 +33,7 @@ export default function page() {
   return (
     <>
       <main>
-        <Header1 />
+        <Header9 />
         <Hero7 />
         <RankedStudents />
         <TeamSection />

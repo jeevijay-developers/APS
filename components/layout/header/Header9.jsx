@@ -37,28 +37,38 @@ export default function Header9() {
   return (
     <>
       <header
-        className={`header -type-10 js-header  ${addClass ? "-is-sticky" : ""}`}
+        className={`header -type-10 js-header -is-sticky`} //${addClass ? "-is-sticky" : ""}
       >
         <div className="header__container">
           <div className="headerMobile__left">
             <button
               onClick={() => setMobileMenuOpen(true)}
-              className="header__menuBtn js-menu-button"
+              className="header__menuBtn js-menu-button "
             >
               <i className="icon-main-menu text-white"></i>
             </button>
           </div>
 
           <div className="header__left">
-            <div className="header__logo">
-              <Link href="/" className="header__logo">
+            <Link href="/" className="header__logo">
+              <Image
+                width="60"
+                height="25"
+                src="/img/pageHeader/logo.png"
+                alt="logo icon"
+              />
+            </Link>
+          </div>
+          <div className="header__right">
+            <div className="header__logo ">
+              {/* <Link href="/" className="header__logo">
                 <Image
-                  width="167"
-                  height="32"
-                  src="/img/general/logo-light.svg"
+                  width="120"
+                  height="25"
+                  src="/img/general/oritto.png"
                   alt="logo icon"
                 />
-              </Link>
+              </Link> */}
 
               <div className="text-white">
                 <Menu />
@@ -66,7 +76,8 @@ export default function Header9() {
             </div>
           </div>
 
-          <div className="headerMobile__right">
+          {/* <div classN
+          ame="headerMobile__right">
             <button
               onClick={() => pageNavigate("/tour-list-1")}
               className="d-flex"
@@ -80,9 +91,9 @@ export default function Header9() {
             >
               <i className="icon-person text-18 text-white"></i>
             </button>
-          </div>
+          </div> */}
 
-          <div className="header__right">
+          {/* <div className="header__right">
             <div className="text-white">
               <Currency
                 parentClass={
@@ -101,7 +112,7 @@ export default function Header9() {
             >
               Log in
             </Link>
-          </div>
+          </div> */}
         </div>
       </header>
       <MobileMenu

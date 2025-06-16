@@ -1,5 +1,6 @@
 import FooterOne from "@/components/layout/footers/FooterOne";
 import Header1 from "@/components/layout/header/Header1";
+import Header9 from "@/components/layout/header/Header9";
 import Image from "next/image";
 
 export const metadata = {
@@ -11,7 +12,7 @@ export default function NotFound() {
   return (
     <>
       <main>
-        <Header1 />
+        <Header9 />
         <section className="nopage mt-header">
           <div className="container">
             <div className="row y-gap-30 justify-between items-center">

@@ -1,46 +1,33 @@
 "use client";
 
-import { homes, pages, tours } from "@/data/menu";
+import { homes, pages, tours } from "@/data/menu"; //category,
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Menu() {
   const pathname = usePathname();
+  // console.log("Category 2 data: ", category);
   return (
     <>
       <div className="xl:d-none ml-30">
         <div className="desktopNav">
-          <div className="desktopNav__item">
+          <div className="desktopNav__item ">
             <a
               className={
                 pathname?.split("/")[1].split("-")[0] == "home"
                   ? "activeMenu"
                   : ""
               }
-              href="#"
+              href="/"
             >
-              Home <i className="icon-chevron-down"></i>
+              Home
             </a>
-
-            <div className="desktopNavSubnav">
-              <div className="desktopNavSubnav__content">
-                {homes.map((elm, i) => (
-                  <div key={i} className="desktopNavSubnav__item text-dark-1">
-                    <Link
-                      className={pathname == elm.href ? "activeMenu" : ""}
-                      href={elm.href}
-                    >
-                      {elm.title}
-                    </Link>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
+        
 
-          <div className="desktopNav__item">
+          {/* <div className="desktopNav__item">
             <a href="#">
               Tour <i className="icon-chevron-down"></i>
             </a>
@@ -119,17 +106,23 @@ export default function Menu() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="desktopNav__item">
-            <Link href="/destinations">Destination</Link>
-          </div>
+           <div className="desktopNav__item">
+            <Link href="/events">Events</Link>
+          </div> 
 
-          <div className="desktopNav__item">
-            <a href="#">Activities</a>
-          </div>
+           <div className="desktopNav__item">
+            <a href="/about">About</a>
+          </div> 
+           <div className="desktopNav__item">
+            <a href="/school-gallary">School Gallary</a>
+          </div> 
+           <div className="desktopNav__item">
+            <a href="/contact">Contact Us</a>
+          </div> 
 
-          <div className="desktopNav__item">
+          {/* <div className="desktopNav__item">
             <a href="#">
               Pages <i className="icon-chevron-down"></i>
             </a>
@@ -161,11 +154,11 @@ export default function Menu() {
                 ))}
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="desktopNav__item">
+          {/* <div className="desktopNav__item">
             <Link href="/contact">Contact</Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
