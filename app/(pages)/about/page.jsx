@@ -13,6 +13,8 @@ import Information from "@/components/pages/about/Information";
 import Team from "@/components/pages/about/Team";
 import React from "react";
 import PressRelease from "@/components/homes/PressRelease/PressRelease";
+import APSProfile from "@/components/homes/APSProfile/APSProfile";
+import VisionandMission from "@/components/homes/VisionandMission/vision-mission";
 
 export const metadata = {
   title: "About Us",
@@ -25,10 +27,12 @@ export default function page() {
       <main>
         <Header9 />
         <Hero />
+        <APSProfile />
         {/* <Information /> */}
         {/* <Banner /> */}
         <FeaturesOne />
         <FoundersMessage />
+        <VisionandMission />
         <PressRelease />
         {/* <div className="mt-60">
           <FeturesTwo />
