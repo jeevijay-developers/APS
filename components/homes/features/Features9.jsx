@@ -30,7 +30,7 @@ export default function EducationStatsSection() {
   };
 
   return (
-    <section className="py-5 my-5 bg-white">
+    <section className="py-lg-5 my-5 bg-white" >
       <div className="container">
         <div className="row align-items-center">
           {/* Left Section */}

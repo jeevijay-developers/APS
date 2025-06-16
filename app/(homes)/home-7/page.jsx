@@ -44,12 +44,11 @@ export default function page() {
         {/* <TourTypeOne /> */}
         {/* <TourSlderOne /> */}
         <VideoPlayer />
-        <TestimonialOne />
-        <BannerOne />
         <Features9 />
         <BannerFour />
         <FeaturesOne />
 
+        <TestimonialOne />
         {/* <ArticlesThree /> */}
         <FooterOne />
       </main>
