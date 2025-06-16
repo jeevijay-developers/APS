@@ -50,14 +50,14 @@ export default function EducationStatsSection() {
                 We at <strong style={{ color: "#000" }}>APS</strong> believe
                 that the concept of education is:
               </p>
-              <ul className="text-white ps-3 mb-4" >
+              <ul className="text-white ps-3 mb-4 list-with-bullets" >
                 <li>to allow children to explore, experiment and enjoy</li>
                 <li>to make it an exciting and stimulating experience</li>
                 <li>to sharpen skills and efficiency</li>
                 <li>to give wings of imagination and achievement</li>
               </ul>
               <button
-                className="btn text-white px-4 py-2"
+                className="btn text-white px-4 py-3"
                 style={buttonStyle}
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
