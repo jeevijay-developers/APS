@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-
+import './contact.css'
 export default function ContactForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -45,6 +45,7 @@ export default function ContactForm() {
       <div className="container d-flex justify-content-center align-items-center gap-3">
         <div>
           <Image
+            className="hide-on-mobile"
             src="/img/aps/school.png"
             width={500}
             height={500}
